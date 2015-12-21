@@ -12,6 +12,10 @@
 		01E5E0F31C27B21A00A9C7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5E0F11C27B21A00A9C7B7 /* Main.storyboard */; };
 		01E5E0F51C27B21A00A9C7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E5E0F41C27B21A00A9C7B7 /* Assets.xcassets */; };
 		01E5E0F81C27B21A00A9C7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5E0F61C27B21A00A9C7B7 /* LaunchScreen.storyboard */; };
+		01E5E1001C27B2CF00A9C7B7 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E0FF1C27B2CF00A9C7B7 /* BlueViewController.swift */; };
+		01E5E1021C27B2DC00A9C7B7 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */; };
+		01E5E1051C27B45600A9C7B7 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */; };
+		01E5E1061C27B45600A9C7B7 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		01E5E0F41C27B21A00A9C7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E5E0F71C27B21A00A9C7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E5E0F91C27B21A00A9C7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E5E0FF1C27B2CF00A9C7B7 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
+		01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				01E5E0ED1C27B21A00A9C7B7 /* AppDelegate.swift */,
 				01E5E0EF1C27B21A00A9C7B7 /* ViewController.swift */,
 				01E5E0F11C27B21A00A9C7B7 /* Main.storyboard */,
+				01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */,
+				01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */,
+				01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */,
+				01E5E0FF1C27B2CF00A9C7B7 /* BlueViewController.swift */,
 				01E5E0F41C27B21A00A9C7B7 /* Assets.xcassets */,
 				01E5E0F61C27B21A00A9C7B7 /* LaunchScreen.storyboard */,
 				01E5E0F91C27B21A00A9C7B7 /* Info.plist */,
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5E0F01C27B21A00A9C7B7 /* ViewController.swift in Sources */,
+				01E5E1051C27B45600A9C7B7 /* BaseTransition.swift in Sources */,
+				01E5E1021C27B2DC00A9C7B7 /* GrayViewController.swift in Sources */,
+				01E5E1001C27B2CF00A9C7B7 /* BlueViewController.swift in Sources */,
+				01E5E1061C27B45600A9C7B7 /* FadeTransition.swift in Sources */,
 				01E5E0EE1C27B21A00A9C7B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
