@@ -16,6 +16,7 @@
 		01E5E1021C27B2DC00A9C7B7 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */; };
 		01E5E1051C27B45600A9C7B7 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */; };
 		01E5E1061C27B45600A9C7B7 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */; };
+		01E5E1081C27C37000A9C7B7 /* LightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5E1071C27C37000A9C7B7 /* LightboxTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
 		01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		01E5E1071C27C37000A9C7B7 /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				01E5E0ED1C27B21A00A9C7B7 /* AppDelegate.swift */,
 				01E5E0EF1C27B21A00A9C7B7 /* ViewController.swift */,
 				01E5E0F11C27B21A00A9C7B7 /* Main.storyboard */,
+				01E5E1071C27C37000A9C7B7 /* LightboxTransition.swift */,
 				01E5E1031C27B45600A9C7B7 /* BaseTransition.swift */,
 				01E5E1041C27B45600A9C7B7 /* FadeTransition.swift */,
 				01E5E1011C27B2DC00A9C7B7 /* GrayViewController.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E5E0F01C27B21A00A9C7B7 /* ViewController.swift in Sources */,
+				01E5E1081C27C37000A9C7B7 /* LightboxTransition.swift in Sources */,
 				01E5E1051C27B45600A9C7B7 /* BaseTransition.swift in Sources */,
 				01E5E1021C27B2DC00A9C7B7 /* GrayViewController.swift in Sources */,
 				01E5E1001C27B2CF00A9C7B7 /* BlueViewController.swift in Sources */,

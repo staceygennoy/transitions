@@ -13,6 +13,7 @@ class BlueViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
     var fadeTransition: FadeTransition!
+    var lightboxTransition: LightboxTransition!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +21,9 @@ class BlueViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         fadeTransition = FadeTransition()
-        fadeTransition.duration = 4
+        fadeTransition.duration = 2
+        
+        lightboxTransition = LightboxTransition()
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +46,7 @@ class BlueViewController: UIViewController {
         
         destinationViewController.modalPresentationStyle = UIModalPresentationStyle.Custom
         
-        destinationViewController.transitioningDelegate = fadeTransition
+        destinationViewController.transitioningDelegate = lightboxTransition
             
         print("I'm about to transition")
     }
