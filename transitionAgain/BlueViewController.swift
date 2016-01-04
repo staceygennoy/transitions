@@ -51,5 +51,27 @@ class BlueViewController: UIViewController {
         print("I'm about to transition")
     }
     
+    @IBAction func onPinchGesture(sender: UIPinchGestureRecognizer) {
+        let scale  = sender.scale
+        let velocity = sender.velocity
+        
+        print(scale)
+        
+        if sender.state == UIGestureRecognizerState.Began {
+            lightboxTransition.isInteractive = true
+            performSegueWithIdentifier("graySegue", sender: nil)
+            
+        } else if sender.state == UIGestureRecognizerState.Changed {
+            lightboxTransition.percentComplete = scale / 8
+            
+        } else if sender.state == UIGestureRecognizerState.Ended {
+            if velocity > 0 {
+                lightboxTransition.finish()
+            } else {
+                lightboxTransition.cancel()
+            }
+            
+        }
+    }
 
 }
